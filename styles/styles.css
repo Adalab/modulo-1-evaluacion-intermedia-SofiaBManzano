@@ -58,7 +58,6 @@ li {
 @media all and (min-width: 768px) {
   .header {
     background-color: white;
-    /* height: 20vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,5 +65,8 @@ li {
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;
+  }
+  .main {
+    font-size: 40px;
   }
 }
