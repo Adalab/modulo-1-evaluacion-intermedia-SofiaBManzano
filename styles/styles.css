@@ -6,10 +6,11 @@
 a {
   color: inherit;
   text-decoration: none;
+  padding: 5px;
 }
 :root {
   --brand-color: #3cdbc0;
-  --primary-font-family: "Open Sans", sans-serif;
+  --primary-font-family: "Rubik", sans-serif;
   --title-font-family: "Rubik", sans-serif;
 }
 
@@ -18,13 +19,18 @@ a {
   width: 100%;
   height: 100vh;
   font-size: 30px;
-  font-family: var(--title-font-family);
-  color: white;
-  font-weight: bold;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.title {
+  font-family: var(--title-font-family);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 100vw;
 }
 
 .header {
@@ -42,7 +48,7 @@ a {
   width: 155px;
 }
 
-ul {
+.menu {
   display: flex;
   flex-direction: row;
 }
@@ -53,6 +59,7 @@ li {
   margin-right: 10px;
   margin-left: 10px;
   font-size: 16px;
+  text-transform: uppercase;
 }
 
 @media all and (min-width: 768px) {
